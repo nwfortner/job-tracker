@@ -37,8 +37,7 @@ angular.module('jobTracker', [
     })
     .state('landing', {
       url: '/landing',
-      templateUrl: 'app/demo/landing.html',
-      controller: 'demoController'
+      templateUrl: 'app/demo/landing.html'
     })
     .state('demo', {
       url: '/demo',
